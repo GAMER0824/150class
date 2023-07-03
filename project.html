@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+
+<body>
+
+    <a-scene>
+
+    <a-assets>
+        <a-asset-item id = "Train" src = "Magnificent Waasa/tinker.obj">
+        </a-asset-item>
+        <a-asset-item id = "train" src = "Magnificent Waasa/obj.mtl">
+        </a-asset-item>
+    </a-assets>
+
+    <a-entity obj-model = "obj:#Train; mtl:#train" rotation = "-90 0 0" position = "-10 -5 -5" scale = "0.5 0.5 0.5"></a-entity>
+
+    </a-scene>
+
+</body>
